@@ -1,0 +1,42 @@
+/*
+    Style declarations for BLDebugBar
+*/
+
+div#fm-bar-debug-bar {}
+
+
+div li.fm-bar-debug-log {
+    color: #000;
+    background-color: #CCC;
+    border: 1px solid #000;
+}
+
+div li.fm-bar-debug-warning {
+    color:#C7BB00;
+    background-color: #FFE7A1;
+    border: 1px solid #C7BB00;
+}
+
+div li.fm-bar-debug-error {
+    color:#871b15;
+    background-color: #cd5a5a;
+    border: 1px solid #871b15;
+}
+
+div li.fm-bar-debug-notice {
+    color: #44570e;
+    background-color: #9f9;
+    border: 1px solid #44570e;
+}
+
+div li div.fm-bar-debug-entry-title {
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 3px;
+}
+
+div li div.fm-bar-debug-entry-data {
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
